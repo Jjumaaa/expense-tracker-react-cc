@@ -1,12 +1,22 @@
-# React + Vite
+# EXPENSE TRACKER CODE CHALLENGE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A code challenge on implementing React JS best practices by creating a simple expense tracker.
 
-Currently, two official plugins are available:
+A user can:
+- View all their expenses.
+- Add any new expense.
+- Filter any expenses by category.
+- Delete any expense.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Best Practices implemented:
+- Form validation using Zod, React Hook Form and Hookform Resolvers.
+- Modularization of code and keeping each component pure. Given different props, each component would still do the same thing.
+- The component where a state was defined must be the one to change state. State is never changed from any other component.
+- Exporting relevant constants from JS modules.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies:
+- ReactJs
+- HTML
+- CSS
+- JS
