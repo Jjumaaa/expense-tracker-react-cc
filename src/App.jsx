@@ -32,7 +32,9 @@ function App() {
     setExpenses([...expenses, newExpense]);
   };
 
-
+  const handleDeleteExpense = (id) => {
+    setExpenses(expenses.filter(expense => expense.id !== id));
+  };
 
   return (
     <div className="expense-tracker-container">
