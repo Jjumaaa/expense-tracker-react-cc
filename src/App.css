@@ -14,7 +14,7 @@ app.css
 }
 
 h1 {
-  color: #646cff;
+  color: white;
   margin-bottom: 2rem;
 }
 
@@ -68,8 +68,8 @@ button {
 }
 
 button:hover {
-  border-color: #646cff;
-  background-color: #535bf2;
+  border-color: white;
+  background-color: red;
 }
 
 
