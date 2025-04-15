@@ -1,5 +1,8 @@
 # EXPENSE TRACKER CODE CHALLENGE
 
+## APPLICATION LINK
+ https://expense-tracker-react-cc.vercel.app/
+
 ## Description
 A code challenge on implementing React JS best practices by creating a simple expense tracker.
 
@@ -21,5 +24,3 @@ A user can:
 - CSS
 - JS
 
-## APPLICATION LINK
- 
