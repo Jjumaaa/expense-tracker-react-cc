@@ -1,9 +1,12 @@
-import React from 'react'
+import { useState } from 'react';
 
-const ExpenseList = () => {
+function ExpenseForm() {
   return (
-    <div>ExpenseList</div>
-  )
+    <div className="expense-form-container">
+      <h2>Add New Expense</h2>
+      
+    </div>
+  );
 }
 
-export default ExpenseList
+export default ExpenseForm;
